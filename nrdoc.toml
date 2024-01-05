@@ -1,0 +1,14 @@
+# This file contains the configuration for `nrdoc`, the tool used to build inertya's documentation.
+# See https://docs.inertya.dev/tools/nrdoc for more info.
+
+[build]
+source = "src"
+site = "site"
+
+[metadata]
+name = "Inertya Docs"
+description = "Inertya's Documentation"
+
+[processing]
+cache = "nrdoc-cache"
+allowed-github-owners = ["inertya", "inertya-rs", "velocity-nr"]
